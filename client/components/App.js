@@ -10,13 +10,13 @@ function mapStateToProps(state) {
   };
 }
 
-function mapDispatchToProps(dispatch) {
+function mapDispachToProps(dispatch) {
   return bindActionCreators(actionCreators, dispatch);
 }
 
 const App = connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispachToProps
 )(Main);
 
 export default App;
